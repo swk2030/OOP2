@@ -3,6 +3,8 @@ using std::cout;    //출력 담당
 using std::cin;     //입력 담당
 using std::endl;    //new line "\n"
 
+
+//테스트
 #include <string>
 using std::string;
 using std::getline;

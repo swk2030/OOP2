@@ -4,8 +4,8 @@ using std::endl;
 
 #include "GradeBook.h"
 
-GradeBook::GradeBook(string name) {
-    setCourseName(name);
+GradeBook::GradeBook(string name) {//사용자 정의 생성자
+    setCourseName(name); //왜 set함수를 통해 데이터 변수를 초기화?
 }
 
 void GradeBook::setCourseName(string name) {

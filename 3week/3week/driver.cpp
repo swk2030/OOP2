@@ -11,5 +11,5 @@ int main() {
     cout << "gradeBook1 created for course: " << gradeBook1.getCourseName()
         << "\ngradeBook2 created for course: " << gradeBook2.getCourseName()
         << endl;
-
+    return 0;
 }

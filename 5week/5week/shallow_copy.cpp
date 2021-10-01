@@ -28,7 +28,7 @@ public:
 	}
 	~Person() {
 		// Person 클래스의 소멸자입니다. 동적할당을 한 name 변수의 메모리 해제를 합니다.
-		delete[] name;	// name 변수의 메모리 해제를 합니다.
+		//delete[] name;	// name 변수의 메모리 해제를 합니다.
 		cout << "Person object's destructor was called" << endl;	// 소멸자를 알리는 문구 출력합니다.
 	}
 	void printAddr(const char* obj_name) {
